@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { useState } from "react";
 import axios from "axios";
 
-function abc() {
+function useStateUseEffect() {
   //------------------useState with Object----------------
   // const [name, setName] = useState({ firstName: "", lastName: "" });
   // return (
@@ -100,4 +100,4 @@ function abc() {
   //-------------useContext Hook ------------------------------
 }
 
-export default abc;
+export default useStateUseEffect;
