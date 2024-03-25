@@ -3,6 +3,13 @@ import ComponentA from "./ComponentA";
 import ComponentB from "./ComponentB";
 import ComponentC from "./ComponentC";
 
+// hierarchy of components
+// Component----> ComponentA
+//           |
+//           |---> ComponentB ----> ComponentD
+//           |
+//           |---> ComponentC ----> ComponentE ----> ComponentF
+
 export const Data = React.createContext();
 const reducer = (state, action) => {
   switch (action) {
