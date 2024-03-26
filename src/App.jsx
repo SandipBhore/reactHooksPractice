@@ -10,6 +10,7 @@ import TwoValuesInOneUseReducer from "./components/2.useReducer/TwoValuesInOneUs
 import UseReducerWithUseContext from "./components/3.useReducerWithUseContext/Component";
 import UseStateWithAxios from "./components/4.useReducerWithAxios/1.useStateWithAxios/useStateWithAxios";
 import UseReducerWithAxios from "./components/4.useReducerWithAxios/2.useReducerWithAxios/useReducerWithAxios";
+import UseCallback from "./components/5.useCallback/UseCallback";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -35,7 +36,9 @@ function App() {
 
       {/* <UseStateWithAxios /> */}
 
-      <UseReducerWithAxios />
+      {/* <UseReducerWithAxios /> */}
+
+      <UseCallback />
     </>
   );
 }
