@@ -11,6 +11,9 @@ import UseReducerWithUseContext from "./components/3.useReducerWithUseContext/Co
 import UseStateWithAxios from "./components/4.useReducerWithAxios/1.useStateWithAxios/useStateWithAxios";
 import UseReducerWithAxios from "./components/4.useReducerWithAxios/2.useReducerWithAxios/useReducerWithAxios";
 import UseCallback from "./components/5.useCallback/UseCallback";
+import UseRef from "./components/6.useRef/UseRef";
+import UseRef2 from "./components/6.useRef/UseRef2";
+import UseDocumentTitle from "./components/7.customHooks/1.useDocumentTitle/useDocumentTitle";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -38,7 +41,13 @@ function App() {
 
       {/* <UseReducerWithAxios /> */}
 
-      <UseCallback />
+      {/* <UseCallback /> */}
+
+      {/* <UseRef /> */}
+
+      {/* <UseRef2 /> */}
+
+      <UseDocumentTitle />
     </>
   );
 }
